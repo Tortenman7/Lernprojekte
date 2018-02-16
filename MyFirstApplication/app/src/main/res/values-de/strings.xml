@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meine erste Applikation gefährlich weil nutzvoll</string>
+    <string name="edit_message">Schreibe eine Nachricht</string>
+    <string name="hello_world">Hallo Welt</string>
+    <string name="edit_Name">Schreib deinen Namen</string>
+    <string name="button_send">Senden</string>
+    <string name="textview3">Text Ansicht 3</string>
+    <string name="TextView">"Text Ansicht "</string>
+    <string name="write_something_it_will_pop_up_in_a_new_page_when_you_press_send">Schreib etwas es erscheint dann im nächsten Bildschirm</string>
+    <string name="edit_addressee">Schreibe dein Adressat</string>
+</resources>

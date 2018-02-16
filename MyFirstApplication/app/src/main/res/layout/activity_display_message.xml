@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hufsm.myfirstapplication.DisplayMessageActivity">
+
+    <TextView
+        android:id="@+id/message_view"
+        android:layout_width="248dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/edit_message"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColorHint="?android:attr/textColorLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/author_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="292dp"
+        android:layout_marginEnd="322dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/edit_Name"
+        android:text="@string/edit_Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message_view"
+        tools:text="@string/edit_Name" />
+
+    <TextView
+        android:id="@+id/addresse_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+</android.support.constraint.ConstraintLayout>
