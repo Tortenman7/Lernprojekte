@@ -75,12 +75,14 @@ public class MainActivity extends AppCompatActivity {
                                 Log.d("TAG", "current = " + currentTime + " elapsed=" + elapsed + " remaining = " + remaining + " start = " + startTime);
                                 if (remaining != 0) {
                                     countdown.setText(Long.toString(remaining) + "s");
+                                    startButton.setClickable(false);
                                 }
                                 else {
                                     ring.start();
                                     Toast.makeText(getApplicationContext(), "time is over", Toast.LENGTH_SHORT).show();
                                     countdown.setText("time is over");
                                     ring.start();
+                                    startButton.setClickable(true);
 
                                 }
 
